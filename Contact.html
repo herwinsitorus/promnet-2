@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+    <nav>
+        <a href="Home.html">Home</a> |
+        <a href="About.html">About</a> |
+        <a href="Project.html">Project</a> |
+        <a href="Contact.html">Contact</a>
+
+    </nav>
+    <hr>
+    <h2>Informssi Kontak</h2>
+    <p>Jika Anda inginberdiskusi atau bekerja sama, silahkan hubungi saya melalui from berikut. <br>Anda juga dapat
+        mengirim email ke <a href="mailto:herwin.sitorus@student.upi.edu"
+            style="color:blue">herwin.sitorus@student.upi.edu</a></p>
+    <h2>Form Pesan</h2>
+
+    <form>
+        <table border="1px solid" width="50%" style="border-collapse: collapse">
+            <tr>
+                <td colspan="2" style="text-align: center"> <strong>Form Data Kontak</strong>
+                </td>
+            <tr>
+                <td style="text-align: right;" class=" label">Nama Lengkap:</td>
+                <td class="input"><input type="text" name="nama" /></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" class="label">Email:</td>
+                <td class="input"><input type="email" name="email" /></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" class="label">Nomor Telepon:</td>
+                <td class="input"><input type="number" name="Nomor Telepon" /></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" class="label">Jenis Kelamin:</td>
+                <td class="input"><input type="radio" name="laki-laki" value="Laki-laki" /> Laki-laki <input
+                        type="radio" name="perempuan" value="Perempuan" /> Perempuan</td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" class="label">Tanggal Lahir:</td>
+                <td class="input"><input type="date" name="tanggal_lahir" /></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" class="label">Topik Pesan :</td>
+                <td>
+                    <select name="Topik Pesan">
+                        <option></option>
+                        <option value="Diskusi">Diskusi</option>
+                        <option value="Kerjasama">Kerjasama</option>
+                        <option value="Pengajuan">Pengajuan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" class="label">Jenis Pesan:</td>
+                <td class="input"><input type="radio" name="Pertanyaan" value="Pertanyaan" /> Pertanyaan
+                    <input type="radio" name="Saran" value="Saran" /> Saran
+                    <input type="radio" name="Lainnya" value="Lainnya"> Lainnya
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" class="label">Pesan :</td>
+                <td class="textarea"><textarea name="alamat" rows="5" cols="33"></textarea></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;" class="label">Salinan Pesan :</td>
+                <td><input type="checkbox" name="Salinan Pesan" value="Kirim salinan pesan ke email saya" /> Kirim
+                    salinan pesan ke email saya </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center">
+                    <input type="submit" value="Kirim Pesan" />
+                    <input type="reset" value="Reset" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p> <em>Catatan: Karena website ini hanya mengunakan HTML, form belum terhubung ke server/database.</em> </p>
+    <hr>
+    <nav>
+        <a href="Home.html">Kembali ke Home</a>
+    </nav>
+    <p>©2026 Herwin M R Sitorus.</p>
+</body>
+
+</html>
